@@ -858,39 +858,15 @@ select:focus {
 }
 
 .icon-logo:before {
-  content: "\e000";
+  content: "\e603";
 }
 
 .icon-github:before {
-  content: "\e001";
+  content: "\e600";
 }
 
 .icon-docs:before {
-  content: "\e002";
-}
-
-.icon-reset:before {
-  content: "\e003";
-}
-
-.icon-grid:before {
-  content: "\e004";
-}
-
-.icon-typography:before {
-  content: "\e005";
-}
-
-.icon-buttons:before {
-  content: "\e006";
-}
-
-.icon-forms:before {
-  content: "\e007";
-}
-
-.icon-addons:before {
-  content: "\e008";
+  content: "\e601";
 }
 
 /* =============================================================
@@ -1016,6 +992,52 @@ tbody tr:nth-child(even) {
 
 .label-warning {
   background-color: #dba909;
+}
+
+/* =============================================================
+
+	Tables v2.0
+	Simple table styling by Chris Ferdinandi.
+	http://gomakethings.com
+
+	Free to use under the MIT License.
+	http://gomakethings.com/mit/
+
+ * ============================================================= */
+/*  Removes default browser settings
+ *  and evens out inconsistencies. */
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1.5625em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5em;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+td {
+  border-top: 0.0725em solid #ededed;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.table-condensed th,
+.table-condensed td {
+  padding: 0.25em;
 }
 
 /* =============================================================
